@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 3 - Conejos</title>
+
+    <link href="bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina1.html">Perritos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina2.html">Gatitos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="pagina3.html">Conejos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 text-center">
+        <h1 class="display-4 text-success">¡Bienvenido a la Página de Conejos!</h1>
+        <p class="lead">Aquí encontrarás información y fotos adorables de conejos.</p>
+        <p>Los conejos son animales muy sociables, tiernos y divertidos. Son conocidos por sus largas orejas y su suavidad.</p>
+        <p>Cada conejo tiene su propia personalidad, y muchos se convierten en grandes compañeros de vida.</p>
+
+        <div id="carouselConejos" class="carousel slide mx-auto mt-4" data-bs-ride="carousel" style="max-width: 800px;">
+            <div class="carousel-inner rounded shadow-lg">
+                <div class="carousel-item active">
+                    <img src="img/conejo1.jpg" class="d-block w-100 rounded-3" alt="Conejo 1" style="height: 400px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/conejo2.jpg" class="d-block w-100 rounded-3" alt="Conejo 2" style="height: 400px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/conejo3.jpg" class="d-block w-100 rounded-3" alt="Conejo 3" style="height: 400px; object-fit: cover;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselConejos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselConejos" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+
+        <div class="alert alert-info mt-4 shadow-sm" role="alert">
+            <strong>¡Dato curioso!</strong> ¿Sabías que los conejos pueden saltar hasta tres metros de distancia en un solo brinco?
+        </div>
+
+        <div class="text-center mt-3">
+            <button class="btn btn-success btn-lg shadow-sm">Ver más conejos</button>
+        </div>
+    </div>
+
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>

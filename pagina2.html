@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2 - Gatitos</title>
+    <!-- Usar el enlace correcto de Bootstrap -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-secondary">
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina1.html">Perritos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="pagina2.html">Gatitos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina3.html">Conejos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 text-center">
+        <h1 class="display-4 text-white">¡Bienvenido a la Página de Gatitos!</h1>
+        <p class="lead text-white">Aquí encontrarás información y fotos adorables de gatitos.</p>
+        <p class="text-white">Los gatos son compañeros fascinantes. Son curiosos, independientes y muy cariñosos cuando quieren.</p>
+        <p class="text-white">Cada gato tiene una personalidad única, lo que los hace aún más especiales.</p>
+        
+        <!-- Carrusel de imágenes -->
+        <div id="carouselGatitos" class="carousel slide mx-auto mt-4" data-bs-ride="carousel" style="max-width: 500px;">
+            <div class="carousel-inner rounded shadow">
+                <div class="carousel-item active">
+                    <img src="img/gatito1.jpeg" class="d-block w-100 rounded" alt="Gatito 1" style="height: 300px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/gatito2.jpg" class="d-block w-100 rounded" alt="Gatito 2" style="height: 300px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/gatito3.jpg" class="d-block w-100 rounded" alt="Gatito 3" style="height: 300px; object-fit: cover;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselGatitos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselGatitos" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+        
+        <div class="alert alert-warning mt-4 shadow-sm" role="alert">
+            <strong>¡Dato curioso!</strong> ¿Sabías que los gatos pueden girar sus orejas 180 grados y escuchar frecuencias que los humanos no pueden?
+        </div>
+        
+        <div class="text-center mt-3">
+            <button class="btn btn-light btn-lg shadow-sm">Ver más gatitos</button>
+        </div>
+    </div>
+
+    <!-- Incluir el archivo JS de Bootstrap -->
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>
